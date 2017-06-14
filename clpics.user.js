@@ -98,8 +98,7 @@ var images = {
 
 // Required for maps to work under Greasemonkey
 CL.extend('maps', {
-    clMapsUrl: unsafeWindow.maptileBaseUrl,
-})
+    clMapsUrl: unsafeWindow.maptileBaseUrl,});
 
 function interpolate(string) {
     var args = Array.prototype.slice.call(arguments, 1),
